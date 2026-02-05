@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rian Rest | Apartment Stay</title>
+  <meta name="description" content="Rian Rest apartment stay. View photos, location, and contact via WhatsApp." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header__inner">
+      <a class="logo" href="#top">Rian Rest</a>
+
+      <nav class="nav" id="nav">
+        <a href="#about">About</a>
+        <a href="#gallery">Photos</a>
+        <a href="#amenities">Amenities</a>
+
+        <a href="#location">Location</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header__actions">
+        <button class="burger" id="burger" aria-label="Open Menu">
+          <span></span><span></span><span></span>
+        </button>
+
+        <a class="btn btn--wa" id="waTopBtn" target="_blank" rel="noreferrer">WhatsApp</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main id="top">
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="pill">Apartment • Short & Long Stays</p>
+          <h1>Comfortable stay at <span class="accent">Rian Rest</span></h1>
+          <p class="muted">
+            A clean, cozy apartment for couples, families, and solo travelers.
+            Check availability and rates instantly via WhatsApp.
+          </p>
+
+          <div class="hero__cta">
+            <a class="btn" href="#gallery">View Photos</a>
+            <a class="btn btn--wa" id="waHeroBtn" target="_blank" rel="noreferrer">Chat on WhatsApp</a>
+          </div>
+
+          <div class="stats">
+            <div class="stat">
+              <div class="stat__title">Check-in</div>
+              <div class="stat__value">Flexible</div>
+            </div>
+            <div class="stat">
+              <div class="stat__title">Stay type</div>
+              <div class="stat__value">Daily / Monthly</div>
+            </div>
+            <div class="stat">
+              <div class="stat__title">Best for</div>
+              <div class="stat__value">Family / Couple</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__media">
+          <!-- Put your best image as images/hero.jpg -->
+          <img src="images/hero.jpg" alt="Rian Rest Apartment" class="hero__img" />
+          <div class="hero__badge">
+            <div class="badge__title">Fast booking</div>
+            <div class="badge__text">WhatsApp us to reserve</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container split">
+        <div>
+          <h2>About Rian Rest</h2>
+          <p class="muted">
+            Rian Rest is a private apartment stay designed for comfort and convenience.
+            Close to key locations, ideal for relaxing after travel or work.
+          </p>
+
+          <div class="cards">
+            <div class="card">
+              <h3>Clean & Cozy</h3>
+              <p class="muted">A calm space with everything you need for a smooth stay.</p>
+            </div>
+            <div class="card">
+              <h3>Great Location</h3>
+              <p class="muted">Easy access with Google Maps directions.</p>
+            </div>
+            <div class="card">
+              <h3>Quick Support</h3>
+              <p class="muted">Message on WhatsApp anytime for availability and info.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel">
+          <h3>At a glance</h3>
+          <ul class="list">
+            <li><span>✔</span> Private apartment</li>
+            <li><span>✔</span> Suitable for couples & families</li>
+            <li><span>✔</span> Short stays & monthly stays</li>
+            <li><span>✔</span> Easy booking via WhatsApp</li>
+          </ul>
+          <a class="btn btn--wa full" id="waAboutBtn" target="_blank" rel="noreferrer">WhatsApp to Book</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="section" id="gallery">
+      <div class="container">
+        <div class="section__head">
+          <div>
+            <h2>Photo Gallery</h2>
+            <p class="muted">Click any photo to view larger.</p>
+          </div>
+          <a class="link" href="#contact">Need rates? →</a>
+        </div>
+
+        <!-- Put your images inside /images and update the filenames below -->
+        <div class="grid" id="galleryGrid">
+          <button class="g" data-img="images/1.jpg"><img src="images/1.jpg" alt="Rian Rest photo 1"></button>
+          <button class="g" data-img="images/2.jpg"><img src="images/2.jpg" alt="Rian Rest photo 2"></button>
+          <button class="g" data-img="images/3.jpg"><img src="images/3.jpg" alt="Rian Rest photo 3"></button>
+          <button class="g" data-img="images/4.jpg"><img src="images/4.jpg" alt="Rian Rest photo 4"></button>
+          <button class="g" data-img="images/5.jpg"><img src="images/5.jpg" alt="Rian Rest photo 5"></button>
+          <button class="g" data-img="images/6.jpg"><img src="images/6.jpg" alt="Rian Rest photo 6"></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Amenities -->
+    <section class="section" id="amenities">
+      <div class="container">
+        <div class="section__head">
+          <div>
+            <h2>Amenities</h2>
+            
+          </div>
+        </div>
+
+        <div class="amenities">
+          <div class="chip">Wi-Fi</div>
+          <div class="chip">Parking</div>
+          <div class="chip">Hot water</div>
+          <div class="chip">Kitchen</div>
+          <div class="chip">Air conditioning</div>
+          <div class="chip">TV</div>
+          <div class="chip">Clean bedding</div>
+          <div class="chip">Family friendly</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Location -->
+
+<section class="section" id="location">
+  <div class="container">
+    <div class="section__head">
+      <div>
+        <h2>Location</h2>
+        <p class="muted">
+          Rian Rest – tap “Get Directions” or view the map below.
+        </p>
+      </div>
+      <a class="btn" id="directionsBtn" target="_blank">Get Directions</a>
+    </div>
+
+    <div class="mapWrap">
+      <iframe
+        src="https://www.google.com/maps?q=Rian+Rest&output=embed"
+        width="100%"
+        height="420"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="container contact">
+        <div>
+          <h2>Contact & Booking</h2>
+          <p class="muted">
+            Message us on WhatsApp and we’ll reply with availability, rates, and details.
+          </p>
+
+          <div class="contact__box">
+            <div class="contact__row">
+              <div class="label">WhatsApp</div>
+              <div class="value" id="waText">+94 XX XXX XXXX</div>
+            </div>
+            <div class="contact__row">
+              <div class="label">Location</div>
+              <div class="value" id="locText">Your area / city</div>
+            </div>
+          </div>
+
+          <div class="contact__cta">
+            <a class="btn btn--wa" id="waContactBtn" target="_blank" rel="noreferrer">Book on WhatsApp</a>
+            <a class="btn btn--ghost" href="#gallery">See photos</a>
+          </div>
+        </div>
+
+        <div class="panel">
+          <h3>Quick message template</h3>
+          <p class="muted small">This message will auto-fill in WhatsApp:</p>
+          <div class="template" id="msgPreview"></div>
+          
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <p class="muted">© <span id="year"></span> Rian Rest. All rights reserved.</p>
+        <div class="footer__links">
+          <a href="#about">About</a>
+          <a href="#gallery">Photos</a>
+          <a href="#location">Location</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+      <button class="lightbox__close" id="lightboxClose" aria-label="Close">✕</button>
+      <img id="lightboxImg" alt="Preview" />
+    </div>
+
+    <!-- Floating WhatsApp -->
+    <a class="waFloat" id="waFloat" target="_blank" rel="noreferrer" aria-label="WhatsApp">
+      <span>WhatsApp</span>
+    </a>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
