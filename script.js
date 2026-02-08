@@ -1,5 +1,5 @@
 // ================= CONFIG =================
-const WHATSAPP_NUMBER = "+94775368724";
+const WHATSAPP_NUMBER = "+94743052300";
 const LOCATION_TEXT = "Rian Rest Apartment";
 const GOOGLE_MAPS_DIRECTIONS_LINK =
   "https://maps.app.goo.gl/fyHXyLoEcC5SiogB6";
